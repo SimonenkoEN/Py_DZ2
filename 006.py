@@ -95,7 +95,6 @@ total_score = [0, 0]
 with open('total_score.txt', 'r') as data:
     tmp_ts = data.readline()
     ts = tmp_ts.split(',')
-    print(ts, ts[0], ts[1])
     total_score[0] = float(ts[0])
     total_score[1] = int(ts[1])
 
